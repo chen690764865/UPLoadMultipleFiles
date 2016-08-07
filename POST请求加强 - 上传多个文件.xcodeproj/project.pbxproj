@@ -15,6 +15,9 @@
 		3389BA2B1D578B2000E53682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA291D578B2000E53682 /* LaunchScreen.storyboard */; };
 		3389BA361D578B2000E53682 /* POST_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA351D578B2000E53682 /* POST_____________Tests.m */; };
 		3389BA411D578B2000E53682 /* POST_____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA401D578B2000E53682 /* POST_____________UITests.m */; };
+		3389BA511D578BB700E53682 /* eb34bcc379310a5541a83380b54543a98226103c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA4E1D578BB700E53682 /* eb34bcc379310a5541a83380b54543a98226103c.jpg */; };
+		3389BA521D578BB700E53682 /* jglza7419say98dy1yfhak1821hjEygu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA4F1D578BB700E53682 /* jglza7419say98dy1yfhak1821hjEygu.jpeg */; };
+		3389BA531D578BB700E53682 /* lswzdbdaa4ASU4uy97Y.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA501D578BB700E53682 /* lswzdbdaa4ASU4uy97Y.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		3389BA3C1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POST请求加强 - 上传多个文件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3389BA401D578B2000E53682 /* POST_____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "POST_____________UITests.m"; sourceTree = "<group>"; };
 		3389BA421D578B2000E53682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3389BA4E1D578BB700E53682 /* eb34bcc379310a5541a83380b54543a98226103c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eb34bcc379310a5541a83380b54543a98226103c.jpg; sourceTree = "<group>"; };
+		3389BA4F1D578BB700E53682 /* jglza7419say98dy1yfhak1821hjEygu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jglza7419say98dy1yfhak1821hjEygu.jpeg; sourceTree = "<group>"; };
+		3389BA501D578BB700E53682 /* lswzdbdaa4ASU4uy97Y.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lswzdbdaa4ASU4uy97Y.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		3389BA1A1D578B2000E53682 /* POST请求加强 - 上传多个文件 */ = {
 			isa = PBXGroup;
 			children = (
+				3389BA4E1D578BB700E53682 /* eb34bcc379310a5541a83380b54543a98226103c.jpg */,
+				3389BA4F1D578BB700E53682 /* jglza7419say98dy1yfhak1821hjEygu.jpeg */,
+				3389BA501D578BB700E53682 /* lswzdbdaa4ASU4uy97Y.jpg */,
 				3389BA1E1D578B2000E53682 /* AppDelegate.h */,
 				3389BA1F1D578B2000E53682 /* AppDelegate.m */,
 				3389BA211D578B2000E53682 /* ViewController.h */,
@@ -243,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3389BA521D578BB700E53682 /* jglza7419say98dy1yfhak1821hjEygu.jpeg in Resources */,
 				3389BA2B1D578B2000E53682 /* LaunchScreen.storyboard in Resources */,
+				3389BA511D578BB700E53682 /* eb34bcc379310a5541a83380b54543a98226103c.jpg in Resources */,
 				3389BA281D578B2000E53682 /* Assets.xcassets in Resources */,
+				3389BA531D578BB700E53682 /* lswzdbdaa4ASU4uy97Y.jpg in Resources */,
 				3389BA261D578B2000E53682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
