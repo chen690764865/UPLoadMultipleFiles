@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3389BA1D1D578B2000E53682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA1C1D578B2000E53682 /* main.m */; };
+		3389BA201D578B2000E53682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA1F1D578B2000E53682 /* AppDelegate.m */; };
+		3389BA231D578B2000E53682 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA221D578B2000E53682 /* ViewController.m */; };
+		3389BA261D578B2000E53682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA241D578B2000E53682 /* Main.storyboard */; };
+		3389BA281D578B2000E53682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA271D578B2000E53682 /* Assets.xcassets */; };
+		3389BA2B1D578B2000E53682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3389BA291D578B2000E53682 /* LaunchScreen.storyboard */; };
+		3389BA361D578B2000E53682 /* POST_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA351D578B2000E53682 /* POST_____________Tests.m */; };
+		3389BA411D578B2000E53682 /* POST_____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA401D578B2000E53682 /* POST_____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3389BA321D578B2000E53682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3389BA101D578B1F00E53682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3389BA171D578B2000E53682;
+			remoteInfo = "POST请求加强 - 上传多个文件";
+		};
+		3389BA3D1D578B2000E53682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3389BA101D578B1F00E53682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3389BA171D578B2000E53682;
+			remoteInfo = "POST请求加强 - 上传多个文件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3389BA181D578B2000E53682 /* POST请求加强 - 上传多个文件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POST请求加强 - 上传多个文件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3389BA1C1D578B2000E53682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3389BA1E1D578B2000E53682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3389BA1F1D578B2000E53682 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3389BA211D578B2000E53682 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3389BA221D578B2000E53682 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3389BA251D578B2000E53682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3389BA271D578B2000E53682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3389BA2A1D578B2000E53682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3389BA2C1D578B2000E53682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3389BA311D578B2000E53682 /* POST请求加强 - 上传多个文件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POST请求加强 - 上传多个文件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3389BA351D578B2000E53682 /* POST_____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "POST_____________Tests.m"; sourceTree = "<group>"; };
+		3389BA371D578B2000E53682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3389BA3C1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POST请求加强 - 上传多个文件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3389BA401D578B2000E53682 /* POST_____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "POST_____________UITests.m"; sourceTree = "<group>"; };
+		3389BA421D578B2000E53682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3389BA151D578B2000E53682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA2E1D578B2000E53682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA391D578B2000E53682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3389BA0F1D578B1F00E53682 = {
+			isa = PBXGroup;
+			children = (
+				3389BA1A1D578B2000E53682 /* POST请求加强 - 上传多个文件 */,
+				3389BA341D578B2000E53682 /* POST请求加强 - 上传多个文件Tests */,
+				3389BA3F1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests */,
+				3389BA191D578B2000E53682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3389BA191D578B2000E53682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3389BA181D578B2000E53682 /* POST请求加强 - 上传多个文件.app */,
+				3389BA311D578B2000E53682 /* POST请求加强 - 上传多个文件Tests.xctest */,
+				3389BA3C1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3389BA1A1D578B2000E53682 /* POST请求加强 - 上传多个文件 */ = {
+			isa = PBXGroup;
+			children = (
+				3389BA1E1D578B2000E53682 /* AppDelegate.h */,
+				3389BA1F1D578B2000E53682 /* AppDelegate.m */,
+				3389BA211D578B2000E53682 /* ViewController.h */,
+				3389BA221D578B2000E53682 /* ViewController.m */,
+				3389BA241D578B2000E53682 /* Main.storyboard */,
+				3389BA271D578B2000E53682 /* Assets.xcassets */,
+				3389BA291D578B2000E53682 /* LaunchScreen.storyboard */,
+				3389BA2C1D578B2000E53682 /* Info.plist */,
+				3389BA1B1D578B2000E53682 /* Supporting Files */,
+			);
+			path = "POST请求加强 - 上传多个文件";
+			sourceTree = "<group>";
+		};
+		3389BA1B1D578B2000E53682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3389BA1C1D578B2000E53682 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3389BA341D578B2000E53682 /* POST请求加强 - 上传多个文件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3389BA351D578B2000E53682 /* POST_____________Tests.m */,
+				3389BA371D578B2000E53682 /* Info.plist */,
+			);
+			path = "POST请求加强 - 上传多个文件Tests";
+			sourceTree = "<group>";
+		};
+		3389BA3F1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3389BA401D578B2000E53682 /* POST_____________UITests.m */,
+				3389BA421D578B2000E53682 /* Info.plist */,
+			);
+			path = "POST请求加强 - 上传多个文件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3389BA171D578B2000E53682 /* POST请求加强 - 上传多个文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3389BA451D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件" */;
+			buildPhases = (
+				3389BA141D578B2000E53682 /* Sources */,
+				3389BA151D578B2000E53682 /* Frameworks */,
+				3389BA161D578B2000E53682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POST请求加强 - 上传多个文件";
+			productName = "POST请求加强 - 上传多个文件";
+			productReference = 3389BA181D578B2000E53682 /* POST请求加强 - 上传多个文件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3389BA301D578B2000E53682 /* POST请求加强 - 上传多个文件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3389BA481D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件Tests" */;
+			buildPhases = (
+				3389BA2D1D578B2000E53682 /* Sources */,
+				3389BA2E1D578B2000E53682 /* Frameworks */,
+				3389BA2F1D578B2000E53682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3389BA331D578B2000E53682 /* PBXTargetDependency */,
+			);
+			name = "POST请求加强 - 上传多个文件Tests";
+			productName = "POST请求加强 - 上传多个文件Tests";
+			productReference = 3389BA311D578B2000E53682 /* POST请求加强 - 上传多个文件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3389BA3B1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3389BA4B1D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件UITests" */;
+			buildPhases = (
+				3389BA381D578B2000E53682 /* Sources */,
+				3389BA391D578B2000E53682 /* Frameworks */,
+				3389BA3A1D578B2000E53682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3389BA3E1D578B2000E53682 /* PBXTargetDependency */,
+			);
+			name = "POST请求加强 - 上传多个文件UITests";
+			productName = "POST请求加强 - 上传多个文件UITests";
+			productReference = 3389BA3C1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3389BA101D578B1F00E53682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenchen;
+				TargetAttributes = {
+					3389BA171D578B2000E53682 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3389BA301D578B2000E53682 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3389BA171D578B2000E53682;
+					};
+					3389BA3B1D578B2000E53682 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3389BA171D578B2000E53682;
+					};
+				};
+			};
+			buildConfigurationList = 3389BA131D578B1F00E53682 /* Build configuration list for PBXProject "POST请求加强 - 上传多个文件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3389BA0F1D578B1F00E53682;
+			productRefGroup = 3389BA191D578B2000E53682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3389BA171D578B2000E53682 /* POST请求加强 - 上传多个文件 */,
+				3389BA301D578B2000E53682 /* POST请求加强 - 上传多个文件Tests */,
+				3389BA3B1D578B2000E53682 /* POST请求加强 - 上传多个文件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3389BA161D578B2000E53682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3389BA2B1D578B2000E53682 /* LaunchScreen.storyboard in Resources */,
+				3389BA281D578B2000E53682 /* Assets.xcassets in Resources */,
+				3389BA261D578B2000E53682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA2F1D578B2000E53682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA3A1D578B2000E53682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3389BA141D578B2000E53682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3389BA231D578B2000E53682 /* ViewController.m in Sources */,
+				3389BA201D578B2000E53682 /* AppDelegate.m in Sources */,
+				3389BA1D1D578B2000E53682 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA2D1D578B2000E53682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3389BA361D578B2000E53682 /* POST_____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3389BA381D578B2000E53682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3389BA411D578B2000E53682 /* POST_____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3389BA331D578B2000E53682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3389BA171D578B2000E53682 /* POST请求加强 - 上传多个文件 */;
+			targetProxy = 3389BA321D578B2000E53682 /* PBXContainerItemProxy */;
+		};
+		3389BA3E1D578B2000E53682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3389BA171D578B2000E53682 /* POST请求加强 - 上传多个文件 */;
+			targetProxy = 3389BA3D1D578B2000E53682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3389BA241D578B2000E53682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3389BA251D578B2000E53682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3389BA291D578B2000E53682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3389BA2A1D578B2000E53682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3389BA431D578B2000E53682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3389BA441D578B2000E53682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3389BA461D578B2000E53682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3389BA471D578B2000E53682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3389BA491D578B2000E53682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POST请求加强 - 上传多个文件.app/POST请求加强 - 上传多个文件";
+			};
+			name = Debug;
+		};
+		3389BA4A1D578B2000E53682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POST请求加强 - 上传多个文件.app/POST请求加强 - 上传多个文件";
+			};
+			name = Release;
+		};
+		3389BA4C1D578B2000E53682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "POST请求加强 - 上传多个文件";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3389BA4D1D578B2000E53682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POST请求加强 - 上传多个文件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenchen.POST-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "POST请求加强 - 上传多个文件";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3389BA131D578B1F00E53682 /* Build configuration list for PBXProject "POST请求加强 - 上传多个文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3389BA431D578B2000E53682 /* Debug */,
+				3389BA441D578B2000E53682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3389BA451D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3389BA461D578B2000E53682 /* Debug */,
+				3389BA471D578B2000E53682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3389BA481D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3389BA491D578B2000E53682 /* Debug */,
+				3389BA4A1D578B2000E53682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3389BA4B1D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3389BA4C1D578B2000E53682 /* Debug */,
+				3389BA4D1D578B2000E53682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3389BA101D578B1F00E53682 /* Project object */;
+}
