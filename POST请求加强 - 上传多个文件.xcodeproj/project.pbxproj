@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332289C11D580D8B00BEA4C8 /* UPLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 332289C01D580D8B00BEA4C8 /* UPLoadManager.m */; };
 		3389BA1D1D578B2000E53682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA1C1D578B2000E53682 /* main.m */; };
 		3389BA201D578B2000E53682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA1F1D578B2000E53682 /* AppDelegate.m */; };
 		3389BA231D578B2000E53682 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389BA221D578B2000E53682 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332289BF1D580D8B00BEA4C8 /* UPLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPLoadManager.h; sourceTree = "<group>"; };
+		332289C01D580D8B00BEA4C8 /* UPLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPLoadManager.m; sourceTree = "<group>"; };
 		3389BA181D578B2000E53682 /* POST请求加强 - 上传多个文件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POST请求加强 - 上传多个文件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3389BA1C1D578B2000E53682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3389BA1E1D578B2000E53682 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				3389BA291D578B2000E53682 /* LaunchScreen.storyboard */,
 				3389BA2C1D578B2000E53682 /* Info.plist */,
 				3389BA1B1D578B2000E53682 /* Supporting Files */,
+				332289BF1D580D8B00BEA4C8 /* UPLoadManager.h */,
+				332289C01D580D8B00BEA4C8 /* UPLoadManager.m */,
 			);
 			path = "POST请求加强 - 上传多个文件";
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			files = (
 				3389BA231D578B2000E53682 /* ViewController.m in Sources */,
 				3389BA201D578B2000E53682 /* AppDelegate.m in Sources */,
+				332289C11D580D8B00BEA4C8 /* UPLoadManager.m in Sources */,
 				3389BA1D1D578B2000E53682 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +516,7 @@
 				3389BA471D578B2000E53682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3389BA481D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件Tests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				3389BA4A1D578B2000E53682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3389BA4B1D578B2000E53682 /* Build configuration list for PBXNativeTarget "POST请求加强 - 上传多个文件UITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				3389BA4D1D578B2000E53682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
